@@ -1,0 +1,22 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# WebAssembly build output
+/rust_module/pkg/
+
+# IDE and Editor specific files
+*.swp
+*.swo
+*.DS_Store
+*.idea/
+.vscode/
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
